@@ -3,3 +3,4 @@
 ./SecondMicroservice/node_modules
 /SecondMicroservice/node_modules
 /SecondMicroservice/.env
+node_modules
