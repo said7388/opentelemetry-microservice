@@ -4,3 +4,6 @@
 /SecondMicroservice/node_modules
 /SecondMicroservice/.env
 node_modules
+./OpenAIMicroservice/node_modules
+/OpenAIMicroservice/node_modules
+/OpenAIMicroservice/.env

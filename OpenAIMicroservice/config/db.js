@@ -3,10 +3,7 @@ import { MongoClient } from "mongodb";
 dotEnv.config();
 
 // define the MongoDB client
-const client = new MongoClient(
-  process.env.MONGO_URI,
-  { useNewUrlParser: true}
-);
+const client = new MongoClient(process.env.MONGO_URI);
 
 // to store the database instance
 let database;
