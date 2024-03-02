@@ -1,0 +1,5 @@
+./FirstMicroservice/node_modules
+/FirstMicroservice/node_modules
+./SecondMicroservice/node_modules
+/SecondMicroservice/node_modules
+/SecondMicroservice/.env
