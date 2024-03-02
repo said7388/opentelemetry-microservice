@@ -20,7 +20,7 @@ export const getFeeds = async (req, res, next) => {
         propagation.inject(context.active(), carrier);
 
         // Make the HTTP request with the injected context in headers
-        return axios.get("http://localhost:4000/api/feeds", {
+        return axios.get("http://47.129.30.41:4000/api/feeds", {
           headers: carrier,
         });
       }
