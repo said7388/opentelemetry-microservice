@@ -31,6 +31,6 @@ app.get("/", (req, res) => {
   res.send("Feeds Microservice is running...");
 });
 
-const Port = process.env.PORT || 3000;
+const Port = process.env.PORT || 6800;
 // listening to the port
 app.listen(Port, console.log("Listening to port ", Port));

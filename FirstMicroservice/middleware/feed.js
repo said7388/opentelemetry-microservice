@@ -1,10 +1,10 @@
 import { context, trace } from "@opentelemetry/api";
 import configureOpenTelemetry from "../config/tracing.config.js";
-const tracerProvider = configureOpenTelemetry("start");
+const tracerProvider = configureOpenTelemetry("1st-microservice");
 
 export const feedMiddleware = async (req, res, next) => {
   const tracer = tracerProvider.getTracer("feeds-tracer");
-  const span = tracer.startSpan("feed");
+  const span = tracer.startSpan("newsfeed-span-1st-ms");
 
   // Add custom attributes or log additional information if needed
   span.setAttribute("feeds", "Feed tracking");
